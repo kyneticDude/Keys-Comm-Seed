@@ -1,0 +1,14 @@
+/* TEAM */
+	Mockup:Elroy Bekwa
+	Contact: hello [at] humanstxt.org
+	From:JHB, GP, RSA
+
+	Web Developer: Kutlwano Tjabane
+	Twitter: @KyneticSessions
+	From:JHB, GP, RSA		
+
+/* SITE */
+	Last update:2013/07/25
+	Language: English
+	Doctype:HTML5
+	IDE: Textmate, Sublime Text, Notepad++, FileZilla, Photoshop

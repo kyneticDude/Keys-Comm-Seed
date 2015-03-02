@@ -1,0 +1,69 @@
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+    width: 100%;
+    max-width: 658px;
+}
+.jcarousel li ul {
+    /* Required only for block elements like <li>'s */
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.jcarousel li ul li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+    width: 199px;
+    height: 199px;
+}
+
+.jcarousel-prev {
+    background: #7b7b7b url(../../../assets/images/controls/minus.png) no-repeat center center;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    right: 24px;
+    z-index: 99999;
+}
+.jcarousel-next {
+    background: #7b7b7b url(../../../assets/images/controls/plus.png) no-repeat center center;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    z-index: 99999;
+}
